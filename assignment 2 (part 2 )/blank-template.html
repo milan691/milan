@@ -6,14 +6,15 @@ This is the Table template about planets
 Link:https://github.com/milan691/milan
 -->
 
-<!DOCTYPE html>
-<html lang="en-US">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Table template</title>
-    <link href="minimal-table.css" rel="stylesheet" type="text/css">
-  </head>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"> 
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <link href="minimal-table.css" rel="stylesheet" type="text/css"/>
+  <title>Planetary Data Table</title>
+</head>
   <body>
 
 <!--Main Header displaying the title of the page -->
@@ -24,23 +25,22 @@ Link:https://github.com/milan691/milan
 
     <table>
 
-<!-- Column group that sets the table columns' widths -->
+      <!-- Column group that sets the table columns' widths -->
    
       <caption>
         Data about the planets of our solar system (Planetary facts taken from <a href="http://nssdc.gsfc.nasa.gov/planetary/factsheet/">Nasa's Planetary Fact Sheet - Metric</a>).
       </caption>
 
-<!-- Defines the column structure: first two columns span, third column has a border, and remaining nine columns span. -->
+     <!-- Defines the column structure: first two columns span, third column has a border, and remaining nine columns span. -->
 
       <colgroup>
-        <col span="2">
-        <col style="border: 3px solid black">
-        <col span="9">
+        <col span="2"/>
+        <col style="border: 3px solid black"/>
       </colgroup>
 
       
 
-<!-- Table header with column names -->
+        <!-- Table header with column names -->
 
       <thead>
         <tr> 
@@ -119,7 +119,7 @@ Link:https://github.com/milan691/milan
           <td>The red planet</td>
         </tr>
 
-<!-- Data rows for jovian planets -->
+        <!-- Data rows for jovian planets -->
 
         <tr>
           <!-- Grouping planets into "Jovian planets" and further into "Gas giants" -->
@@ -151,7 +151,7 @@ Link:https://github.com/milan691/milan
           <td></td>
         </tr>
 
-<!-- Data rows for ice giants -->
+          <!-- Data rows for ice giants -->
 
         <tr>
           <th rowspan="2">Ice Giants</th>
@@ -183,7 +183,7 @@ Link:https://github.com/milan691/milan
     
         </tr>
 
-<!-- Data row for dwarf planet -->
+          <!-- Data row for dwarf planet -->
 
         <tr>
           <th colspan="2">Dwarf planets</th>
@@ -200,7 +200,7 @@ Link:https://github.com/milan691/milan
         </td>
     
         </tr>
-
+      </tbody>
     </table>
 
 
