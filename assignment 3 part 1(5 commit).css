@@ -1,0 +1,15 @@
+a:link,
+a:visited {
+    color: red; /* Sets the color of unvisited and visited links to red */
+}
+
+a:hover {
+    text-decoration: none; /* Removes the underline from links when hovered over */
+    color: green; /* Changes the color of links to green when hovered over */
+}
+
+ul {
+    background-color: #eeeeee; /* Sets the background color of unordered lists to light gray */
+    border: 5px solid purple; /* Adds a 5px solid purple border to unordered lists */
+    padding: 20px; /* Adds 20px padding to unordered lists */
+}
