@@ -1,0 +1,19 @@
+html {
+    font-family: sans-serif;
+  }
+
+  
+  
+
+  div{
+    /*spacing setup*/
+   width: 300px;
+   margin: 170px auto;  
+   padding: 4px;
+   line-height: 10em;
+   text-align: center;
+   
+   /* font setup */
+   color: white;
+   font-size: 1.8em;
+   text-shadow: 1.5px 1.5px 1px #000;
