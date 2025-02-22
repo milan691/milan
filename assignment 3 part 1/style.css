@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, Helvetica, sans-serif; /* Sets the font for the entire body */
+}
+
+h1 {
+    color: hotpink; /* Sets the color of the main heading to hot pink */
+    font-size: 2em; /* Sets the font size of the main heading to 2em */
+    font-family: Georgia, "Times New Roman", Times, serif; /* Sets the font family of the main heading */
+    border-bottom: 10px dotted purple; /* Adds a 10px dotted purple border to the bottom of the main heading */
+}
+
+h2 {
+    font-size: 1.5em; /* Sets the font size of the secondary heading to 1.5em */
+    font-style: italic; /* Italicizes the secondary heading */
+}
+
+.job-title {
+    color: #999999; /* Sets the color of elements with the class "job-title" to light gray */
+    font-weight: bold; /* Makes the text of elements with the class "job-title" bold */
+}
+
+a:link,
+a:visited {
+    color: red; /* Sets the color of unvisited and visited links to red */
+}
+
+a:hover {
+    text-decoration: none; /* Removes the underline from links when hovered over */
+    color: green; /* Changes the color of links to green when hovered over */
+}
+
+ul {
+    background-color: #eeeeee; /* Sets the background color of unordered lists to light gray */
+    border: 5px solid purple; /* Adds a 5px solid purple border to unordered lists */
+    padding: 20px; /* Adds 20px padding to unordered lists */
+}
