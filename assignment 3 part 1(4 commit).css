@@ -1,0 +1,20 @@
+body {
+    font-family: Arial, Helvetica, sans-serif; /* Sets the font for the entire body */
+}
+
+h1 {
+    color: hotpink; /* Sets the color of the main heading to hot pink */
+    font-size: 2em; /* Sets the font size of the main heading to 2em */
+    font-family: Georgia, "Times New Roman", Times, serif; /* Sets the font family of the main heading */
+    border-bottom: 10px dotted purple; /* Adds a 10px dotted purple border to the bottom of the main heading */
+}
+
+h2 {
+    font-size: 1.5em; /* Sets the font size of the secondary heading to 1.5em */
+    font-style: italic; /* Italicizes the secondary heading */
+}
+
+.job-title {
+    color: #999999; /* Sets the color of elements with the class "job-title" to light gray */
+    font-weight: bold; /* Makes the text of elements with the class "job-title" bold */
+}
